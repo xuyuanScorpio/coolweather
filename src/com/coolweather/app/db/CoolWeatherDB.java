@@ -8,6 +8,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.coolweather.app.model.ChinaCity;
 import com.coolweather.app.model.City;
 import com.coolweather.app.model.County;
 import com.coolweather.app.model.Province;
@@ -38,6 +39,8 @@ public class CoolWeatherDB {
 		}
 		return coolWeatherDB;
 	}
+	
+	
 	/**
 	 * 将Province实例存储到数据库。
 	 */
